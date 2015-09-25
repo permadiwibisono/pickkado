@@ -171,66 +171,74 @@
             text-align:center;
             padding:8px 0;
         }
+        #footer {
+            background-color:#F4F4F2;
+        }
+        #content {
+            margin-bottom:10px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="BodyContent" runat="server">
-    <div id="title_product" >
-         <%:Model.Title %>
-    </div>
-    <div id="detail_product">
-        <div class="picture_list">
-            <div class="big_picture">
-                <img src="../Images/<%:Model.ImageUrl %>" />
-            </div>
-            <div class="small_picture">
-
-            </div>
-            <div class="small_picture">
-
-            </div>
-            <div class="small_picture">
-
-            </div>
-            <div class="small_picture">
-
-            </div>
+    <div style="width:1020px;margin:0px auto; position:relative; z-index:0; background-color:white; overflow:auto">
+        <div id="title_product" >
+             <%:Model.Title %>
         </div>
-        <div class="informasi">
-            <p class="title">Informasi produk</p>
-            <div class="field">
-                <span> <%:Model.Description %></span>
-            </div> 
-            <div class="field">
-                <span>
+        <div id="detail_product">
+            <div class="picture_list">
+                <div class="big_picture">
+                    <img src="../Images/<%:Model.ImageUrl %>" />
+                </div>
+                <div class="small_picture">
 
-                <%:Model.DescriptionTambahan %>
-                </span>
-            </div> 
-        </div>
-        <div class="panel_samping">
-            <div class="button1">Beli</div>
-            <div class="price_info">
-                <h3>Rp. <%:Model.Price %></h3>
-                <div class="last_update">
-                    Terakhir update: <%:Model.UpdatedDate %>
+                </div>
+                <div class="small_picture">
+
+                </div>
+                <div class="small_picture">
+
+                </div>
+                <div class="small_picture">
+
                 </div>
             </div>
-            <div class="button2">Tambahkan ke Wishlist</div>
-            <div class="profile_seller">
-                <div class="header">
-                    Profile Penjual
-                </div>
-                <div >
-                    <%:Model.PenjualName %>
-                </div>
-            </div>
-        </div>
-        <div class="review">
-            <div style="margin-left:20px">
-                <p>Review produk</p>
+            <div class="informasi">
+                <p class="title">Informasi produk</p>
                 <div class="field">
-
+                    <span> <%:Model.Description %></span>
                 </div> 
+                <div class="field">
+                    <span>
+
+                    <%:Model.DescriptionTambahan %>
+                    </span>
+                </div> 
+            </div>
+            <div class="panel_samping">
+                <div class="button1">Beli</div>
+                <div class="price_info">
+                    <h3>Rp. <%:Model.Price %></h3>
+                    <div class="last_update">
+                        Terakhir update: <%:Model.UpdatedDate %>
+                    </div>
+                </div>
+                <div class="button2">Tambahkan ke Wishlist</div>
+                <div class="profile_seller">
+                    <div class="header">
+                        Profile Penjual
+                    </div>
+                    <div >
+                        <%:Model.PenjualName %>
+                    </div>
+                </div>
+            </div>
+            <div class="review">
+                <div style="margin-left:20px">
+                    <p>Review produk</p>
+                    <div class="field">
+
+                    </div> 
+                </div>
             </div>
         </div>
     </div>

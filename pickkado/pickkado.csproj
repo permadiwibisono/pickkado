@@ -131,6 +131,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="CSS\easydropdown.css" />
+    <Content Include="CSS\easydropdown.flat.css" />
+    <Content Include="CSS\easydropdown.metro.css" />
     <Content Include="CSS\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\footer-bar-2.png" />
@@ -187,6 +190,7 @@
     <Content Include="Script\jquery-1.8.2.min.js" />
     <Content Include="Script\jquery-ui-1.8.24.js" />
     <Content Include="Script\jquery-ui-1.8.24.min.js" />
+    <Content Include="Script\jquery.easydropdown.js" />
     <Content Include="Script\jquery.unobtrusive-ajax.js" />
     <Content Include="Script\jquery.unobtrusive-ajax.min.js" />
     <None Include="Script\jquery.validate-vsdoc.js" />

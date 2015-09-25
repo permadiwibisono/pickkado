@@ -3,46 +3,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
     <title><%=ViewBag.Title %></title>
     <style>
-        #motto {
-            width:100%;
-            background-color:#F4F4F1;
-                
-        }
-            #motto .title {
-                font-size:48px;
-                color:white;
-                font-family:Moon;
-            }
-            #motto .motto-content {
-                /*background-color:#418C94;*/
-                background-image:url('Images/header-bar-3.jpg');
-                padding-top:20px;
-                padding-bottom:20px;
-                height:104px;
-                width:100%;
-                -webkit-box-shadow: -0.5px 4px 5px 0px rgba(0,0,0,0.5);
-                -moz-box-shadow: -0.5px 4px 5px 0px rgba(0,0,0,0.5);
-                box-shadow: -0.5px 4px 5px 0px rgba(0,0,0,0.5);
-                z-index:5;
-            }
-                .motto-content .table {
-                    width:1000px;
-                    margin:0 auto;
-                }
-            .table .td {
-                /*width:33.33%;*/
-                text-align:center;
-                vertical-align:top;
-            }
-            .table p{
-                width:210px;
-                text-align:center;
-                margin:0 auto;
-                font-family:Helvetica;
-                font-size:12px;
-                color:white;
-                font-style:oblique;
-            }
         #nav_categories {
             margin-top:10px;
             width:1100px;
@@ -96,6 +56,7 @@
         #hot_product {
             width:1040px;
             margin:20px auto;
+            background-color:white;
         }
             #hot_product .title {
                 text-align:center;
@@ -197,8 +158,9 @@
             }
         #nav_roles {
             position:relative;
+            
             /*bottom:-15px;*/
-            margin-top:20px;
+            /*margin-top:20px;*/
             /*-webkit-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.5);
             -moz-box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.5);
             box-shadow: 0px -1px 5px 0px rgba(0,0,0,0.5);*/
@@ -208,6 +170,7 @@
             height:209px;
             background-image:url('Images/footer-bar-2.png');
             z-index:1;
+            background-color:white;
 
         }
         #nav_roles table {
@@ -246,38 +209,13 @@
                 -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
                 box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
             }
+        #footer {
+            background-color:#C5C7C9;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="BodyContent" runat="server">
-    <div id="motto">
-        <div class="motto-content">
-            <table class="table">
-                <tr>
-                    <td class="td">
-                        <span class="title">UNIQUE
-                        </span>
-                        <p >
-                            ada standard keunikan dari produk yang boleh dijual di <strong>PICKKADO</strong>.
-                        </p>
-                    </td>
-                    <td class="td">
-                        <span class="title">CUSTOMIZE</span>
-                        <p>
-                            selain produk jadi yang unik, produk yang dijual di <strong>PICKKADO</strong> merupakan produk yang bisa dicustomize.
-                        </p>
-                    </td>
-                    <td class="td">
-                        <span class="title">SECURE</span>
-                        <p>
-                            <strong>PICKKADO</strong> juga mengutamakan 
-                            kemanan anda dalam membeli 
-                            product.
-                        </p>
-                    </td>
-                </tr>
-            </table>
-
-        </div>
+    <div style="background-color:#F4F4F2; width:100%; overflow:auto;">
         <div id="nav_categories">
             <div class="content">
                 <div class="title">Pilih moment.</div> 
@@ -287,17 +225,21 @@
                 </table>
             </div>
         </div>
+
     </div>
-    <div id="hot_product">
-        <div class="title"><h3>HOT PRODUCT</h3></div>
-        <div class="list">
-            <div class="title">Product <strong>1 - 8</strong>  dari <strong>2.000</strong> </div>
+    <div style="background-color:white; overflow:auto">
+        <div id="hot_product">
+            <div class="title"><h3>HOT PRODUCT</h3></div>
+            <div class="list">
+                <div class="title">Product <strong>1 - 8</strong>  dari <strong>2.000</strong> </div>
            
-            <%Html.RenderAction("productlist", "home", new { Model = Model }); %>
+                <%Html.RenderAction("productlist", "home", new { Model = Model }); %>
+            </div>
+            <div id="loadingDiv" style=" text-align: center; display: none; margin:20px;">
+                <img alt="Loading" src="Images/icon/ajax-loader.gif" style="width:70px;height:70px;  margin:20px;" />
+            </div>
         </div>
-        <div id="loadingDiv" style=" text-align: center; display: none; margin:20px;">
-            <img alt="Loading" src="Images/icon/ajax-loader.gif" style="width:70px;height:70px;  margin:20px;" />
-        </div>
+
     </div>
     <div id="nav_roles">
         <table>
