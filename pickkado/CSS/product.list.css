@@ -1,0 +1,94 @@
+﻿
+             .list {
+                margin-left:20px;
+                float:left;
+            }
+             .list .title {
+                font-family:Kartika;
+                color:#727171;
+                text-align:left;
+            }
+             .list .item {
+                border:1px #E0E0DE solid;
+                font-family:Kartika;
+                color:#727171;
+                text-align:left;
+                margin-right:40px;
+                margin-top:40px;
+                width:162px;
+                height:298px;
+                float:left;
+            }
+             .list .item .detail {
+                /*position:relative;
+                bottom:96px;*/
+                background-color:rgba(255,255,255,0.9);
+            }
+             .list .item  img {
+                width:100%;
+                height:197px;
+            }
+             .list .item .url_product {
+                text-decoration:none;
+                display:block;
+            }
+             .list  .titleproduct {
+                font-family:'Avant GardeBook';
+                font-size:12px;
+                color:#5CB294;
+                height:30px;
+                margin-left:10px;
+                padding-top:10px;
+                cursor:pointer;
+            }
+             .list  .titleproduct a {
+                font-family:'Avant GardeBook';
+                font-size:12px;
+                color:#5CB294;
+                text-decoration:none;
+                display:block;
+                height:100%;
+                width:100%;
+            }
+             .list .price {
+                font-family:Helvetica;
+                font-size:11px;
+                color:#3F9BB4;
+                height:20px;
+                padding-left:10px;
+            }
+             .list .location {
+                font-family:Helvetica;
+                font-size:11px;
+                color:#959595;
+                height:20px;
+                padding-right:10px;
+                text-align:right;
+            }
+             .list .location img {
+                width:10px;
+                height:13px;
+            }
+             .list .shopname {
+                font-family:Helvetica;
+                font-size:11px;
+                color:#959595;
+                height:10px;
+                padding:10px 0;
+                padding-left:10px;
+                background-color:#F4F4F1;
+            }
+             .list .shopname a{
+                font-family:Helvetica;
+                font-size:11px;
+                color:#959595;
+                cursor:pointer;
+                text-decoration:none;
+                width:100%;
+                height:100%;
+                display:inline-block;
+            }
+             .list .shopname img {
+                width:15px;
+                height:8px;
+            }
