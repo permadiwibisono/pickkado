@@ -1,0 +1,25 @@
+ada perubahan ui di home dan di product detail
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	modified:   pickkado.Tests/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#	modified:   pickkado.v11.suo
+#	modified:   pickkado/Views/Shared/Site.Master
+#	modified:   pickkado/Views/home/index.aspx
+#	modified:   pickkado/Views/product/index.aspx
+#	modified:   pickkado/bin/pickkado.dll
+#	modified:   pickkado/bin/pickkado.pdb
+#	modified:   pickkado/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#	modified:   pickkado/obj/Debug/pickkado.csproj.FileListAbsolute.txt
+#	modified:   pickkado/obj/Debug/pickkado.csprojResolveAssemblyReference.cache
+#	modified:   pickkado/obj/Debug/pickkado.dll
+#	modified:   pickkado/obj/Debug/pickkado.pdb
+#	modified:   pickkado/pickkado.csproj
+#
+# Untracked files:
+#	pickkado/CSS/easydropdown.css
+#	pickkado/CSS/easydropdown.flat.css
+#	pickkado/CSS/easydropdown.metro.css
+#	pickkado/Script/jquery.easydropdown.js
+#
