@@ -196,7 +196,7 @@
                     </table>
                 </div>
                 <div class="bar" >
-                    <ul id="nav" style="position:absolute; z-index:5; top:-15px; left:50px; ">
+                    <ul id="nav" style="position:absolute; z-index:5; top:5px; left:50px; ">
                         <li> 
                             <img src="../../Images/logo.png" style="  cursor:pointer;" onclick="location.href='/';" /></li>
                         <li class="nav-button">home</li>
