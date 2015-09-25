@@ -134,6 +134,8 @@
     <Content Include="CSS\easydropdown.css" />
     <Content Include="CSS\easydropdown.flat.css" />
     <Content Include="CSS\easydropdown.metro.css" />
+    <Content Include="CSS\home.css" />
+    <Content Include="CSS\product.list.css" />
     <Content Include="CSS\Site.css" />
     <Content Include="Global.asax" />
     <Content Include="Images\footer-bar-2.png" />
@@ -185,6 +187,7 @@
     <Content Include="Images\tumbnail\p006.jpg" />
     <Content Include="Images\tumbnail\p007.jpg" />
     <Content Include="Images\tumbnail\p008.jpg" />
+    <Content Include="CSS\product.detail.css" />
     <None Include="Script\jquery-1.8.2.intellisense.js" />
     <Content Include="Script\jquery-1.8.2.js" />
     <Content Include="Script\jquery-1.8.2.min.js" />

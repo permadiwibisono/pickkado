@@ -13,7 +13,7 @@
      <link rel="stylesheet" type="text/css" href="../../CSS/easydropdown.css"/>
     <style>
         @font-face {
-            font-family: Kartika;
+            font-family: Helvetica;
             src: url(Font/HelveticaNeue.ttf);
         }
         @font-face {
@@ -25,10 +25,10 @@
             font-family: Roboto;
             src: url(Font/Roboto-Medium.ttf);
         }
-        @font-face {
+        /*@font-face {
             font-family:"Khmer UI";
             src: url(Font/KhmerUI.ttf);
-        }
+        }*/
 
         body {
             margin:0;
