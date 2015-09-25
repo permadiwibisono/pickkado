@@ -1,0 +1,190 @@
+﻿body {
+}
+#titleBig {
+font-size:50px;
+}
+#navContainer {
+    list-style-type:none;
+}
+    #navContainer ul{
+        margin:0;
+        padding:0;
+        text-align:right;
+    }
+        #navContainer ul li{
+            display:inline;
+        }
+            #navContainer ul li a{
+                text-decoration:none;
+                padding: .2em 1em;
+                color: white;
+                background-color: black;
+            }
+                #navContainer ul li a:hover{
+                    background-color: #808080;
+                }
+
+div.divCentral {
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+div.divCentralPaper {
+    background-color:white;
+    border:1px solid;
+    border-color:#D0D0D0;
+    padding-top:20px;
+    padding-left:50px;
+    padding-right:50px;
+    padding-bottom:20px;
+    box-shadow: 8px 8px 5px #DDDDDD;
+}
+
+.shadowLeft {
+    box-shadow: -4px 4px 5px #DADADA;
+}
+
+table.tablePaper {
+    border:1px solid;
+    padding:5px;
+}
+
+.separatorBorderHor {
+    border-bottom:1px solid;
+    margin-bottom:20px;
+    margin-top:20px;
+    border-color:#F6F6F7;
+    box-shadow: 1px 1px 1px #F9F9FA;
+}
+
+.separatorHor {
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.titleCenter {
+    width:100%;
+    text-align:center;
+}
+
+    .titleCenter .title {
+        margin:0px;
+        padding:0px;
+        font-size:20px;
+        font-weight:bold;
+    }
+
+    .titleCenter .description {
+        margin:0px;
+        padding:0px;
+        font-size:15px;
+    }
+
+.tableRegister {
+    
+}
+    .tableRegister tr {
+        height:38px;
+        color:#959595;
+    }    
+
+    .tableRegister input{
+        width:200px;
+        height:20px;
+        padding-left:10px;
+        padding-right:10px;
+    }
+
+    .tableRegister input[type="radio"] {
+        width:13px;
+        vertical-align:central;
+    }
+
+.tableLogin {
+    padding:10px;
+}
+    .tableLogin tr {
+        height:38px;
+    }    
+
+    .tableLogin input{
+        width:260px;
+        height:20px;
+        padding-left:10px;
+        padding-right:10px;
+        border-radius:4px;
+    }
+
+    .tableLogin input[type="radio"] {
+        width:13px;
+        vertical-align:central;
+    }
+
+.divBlue {
+    background-color:#4D929B;    
+}
+
+.divBlack {
+    background-color:#504B43;    
+}
+
+.innerForm {
+    padding:30px;
+}
+
+.tableFull {
+    width:100%;
+    height:100%;
+}
+
+.inner {
+    padding:4px;
+}
+
+.textDesc {
+    height:50px;
+}
+
+.form {
+    background-color:#F6F7F5;
+    margin-top:-15px;
+    height:100%;
+    padding-bottom:50px;
+}
+
+.profileImage {
+    border-radius:5px;
+    width:130px;
+    height:130px;
+}
+
+.gridMenu {
+    border:1px solid #F6F7F5;
+}
+
+    .gridMenu tr {
+        height:30px;
+    }
+
+    .gridMenu tr td {
+        padding-left:10px;
+    }
+
+.tdGridMenu {
+    border-bottom:1px solid #F1F2EF;
+    box-shadow: 0px .5px 0px #F1F2EF;
+}
+    .tdGridMenu:hover{
+        background-color:#56AF92;
+        color:white;
+        transition:linear .2s;
+        cursor:pointer;
+    }
+
+    .tdGridMenu:visited{
+        background-color:#56AF92;
+        color:white;
+        transition:linear .2s;
+        cursor:pointer;
+    }
