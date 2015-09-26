@@ -1,9 +1,14 @@
-﻿<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl<List<pickkado.Models.GiftDummy>>" %>
+﻿<%@ Control Language="C#" Inherits="System.Web.Mvc.ViewUserControl<dynamic>" %>
+
 
 <%
+    int i = 0;
                foreach (var m in Model)
-               { %>
-                    
+               { 
+                   if(i++<4)
+                   {
+                   %>
+                   
                         <div class="item">
                             <a class="url_product" href="product?id=<%:m.Id %>">
                                 <img src="../Images/<%:m.ImageUrl%>" />
@@ -35,5 +40,6 @@
                         </div>    
 
                <%
-                   }
+               }
+             }
            %>

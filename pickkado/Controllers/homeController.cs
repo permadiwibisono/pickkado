@@ -58,13 +58,13 @@ namespace pickkado.Controllers
         }
 
         [ChildActionOnly]
-        public ActionResult ProductList(List<Product> Model)
+        public ActionResult ProductList(List<GiftDummy> Model)
         {
             return PartialView(Model);
         }
 
         [ChildActionOnly]
-        public ActionResult ProductList2(List<Product> Model)
+        public ActionResult ProductList2(List<GiftDummy> Model)
         {
             return PartialView(Model);
         }

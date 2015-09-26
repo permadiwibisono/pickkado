@@ -19,5 +19,13 @@ namespace pickkado.Controllers
             return View(list[0]);
         }
 
+
+        [ChildActionOnly]
+        public ActionResult ProductList(string id)
+        {
+            var list = ds.ProductList.Where(e => e.Id == id).ToList();
+            //ViewBag.Title = "Product: " + list[0].Title;
+            return View(list);
+        }
     }
 }

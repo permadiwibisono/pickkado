@@ -7,11 +7,11 @@ using System.Web.Mvc;
 
 namespace pickkado.Models
 {
-    public class Categories
+    public class Categories: Entity
     {
         
-        public string Id { get; set; }
+        //public string Id { get; set; }
         public string CategoryName { get; set; }
-        public string ImageUrl { get; set; }
+        public string Icon { get; set; }
     }
 }

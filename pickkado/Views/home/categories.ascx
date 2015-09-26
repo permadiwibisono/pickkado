@@ -10,7 +10,7 @@
             { %>
                 <td>
                     <div class="col_cat">
-                        <img src="../Images/<%:Model[i].ImageUrl %>" style="width:20px; height:20px;margin-left:20px;"  />
+                        <img src="../Images/<%:Model[i].Icon %>" style="width:20px; height:20px;margin-left:20px;"  />
                         <span> <%: Html.DisplayFor(m => m[i].CategoryName)%> </span>
 
                     </div>
@@ -23,7 +23,7 @@
                 <tr>
                     <td>
                         <div class="col_cat">
-                        <img src="../Images/<%:Model[i].ImageUrl %>" style="width:20px; height:20px;margin-left:20px;"  />
+                        <img src="../Images/<%:Model[i].Icon %>" style="width:20px; height:20px;margin-left:20px;"  />
                             <span><%: Html.DisplayFor(m => m[i].CategoryName)%></span></div>
                     </td>
             <%}
