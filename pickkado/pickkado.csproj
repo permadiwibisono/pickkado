@@ -224,6 +224,7 @@
     <Content Include="Views\home\index.aspx" />
     <Content Include="Views\home\productlist.ascx" />
     <Content Include="Views\product\index.aspx" />
+    <Content Include="Views\product\order.ascx" />
     <Content Include="Views\product\productlist.ascx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">

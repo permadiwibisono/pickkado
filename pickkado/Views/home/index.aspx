@@ -8,7 +8,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content1" ContentPlaceHolderID="BodyContent" runat="server">
-    <div style="background-color:#F4F4F2; width:100%; overflow:auto;">
+    <div style="background-color:#F4F4F2; width:100%;  overflow:auto;">
         <div id="nav_categories">
             <div class="content">
                 <div class="title">Pilih moment.</div> 
@@ -62,7 +62,8 @@
                 </td>
             </tr>
         </table>
-    </div><script type="text/javascript">
+    </div>
+    <script type="text/javascript">
               var BlockNumber = 3;  //Infinate Scroll starts from second block
               var NoMoreData = false;
               var inProgress = false;

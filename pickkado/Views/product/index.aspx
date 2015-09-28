@@ -11,9 +11,6 @@
         <div id="title_product" >
              <%:Model.Title %>
         </div>
-        <div style="width:850px; margin:0px auto">
-
-        </div>
         <div id="detail_product">
             <div class="picture_list">
                 <div class="big_picture">
@@ -90,7 +87,7 @@
                         <td colspan="2" style="width:100%;">
                             <div id="other_product" >
                                 <div class="list">
-                                    <%Html.RenderAction("productlist", "product", new { id = Model.Id }); %>
+                                    <%Html.RenderAction("productlist", "product", new { SellerId = Model.PenjualName }); %>
 
                                 </div>
 
@@ -102,5 +99,21 @@
             </div>
         </div>
     </div>
+    <script type="text/javascript">
+        $('.button-order').click(function () {
+            $.post("<%: Url.Action("PopupOrder", "product")%>", {},
+                      //$.post("home/productlist?BlockNumber="+BlockNumber+"",
+                              function (data) {
+                                  //BlockNumber = BlockNumber + 1;
+                                  //NoMoreData = data.NoMoreData;
+                                  $("#popup-order").append(data.HTMLString);
+                                  $('html, body').animate({
+                                      scrollTop: $("#popup-order").offset().top
+                                  }, 500);
+                                  //$("#loadingDiv").hide();
+                                  //inProgress = false;
+                              });
+        });
+    </script>
 </asp:Content>
 
