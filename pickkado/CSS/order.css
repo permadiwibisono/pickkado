@@ -1,0 +1,27 @@
+﻿.content-popup {
+    background-color:white;
+    position:relative;
+    margin:0px auto;
+    width:1020px;
+    top:5px;
+    min-height:300px;
+    overflow:auto;
+}
+.content-popup .title-avard-big {
+    font-family:'Avant GardeBook';
+    color:#737272;
+    font-size:21px;
+    font-weight:bold;
+}
+.content-popup .title-avard-small {
+    font-family:'Avant GardeBook';
+    color:#737272;
+    font-size:14px;
+    font-weight:bold;
+}
+.content-popup .title-helvetica-small {
+    font-family:Helvetica;
+    color:#737272;
+    font-size:14px;
+
+}

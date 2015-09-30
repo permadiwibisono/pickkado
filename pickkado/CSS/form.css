@@ -1,0 +1,108 @@
+﻿@font-face {
+    font-family: 'Helvetica Neue';
+    src: url(../Font/HelveticaNeue.ttf);
+}
+@font-face {
+    font-family:Kartika;
+    src: url(../Font/HelveticaNeue.ttf);
+}
+@font-face {
+    font-family:Helvetica;
+    src: url(../Font/Helvetica.ttf);
+}
+@font-face {
+    font-family: Moon;
+    src: url(../Font/MoonLight.ttf);
+}
+        
+@font-face {
+    font-family: Roboto;
+    src: url(../Font/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'Avant GardeBook';
+    src: url(../Font/AvantGardeBookRegular.otf);
+}
+@font-face {
+    font-family:'Avant Garde 2 BQ';
+    src: url(../Font/AvantGarde2BQRegular.otf);
+}
+/*@font-face {
+    font-family:"Khmer UI";
+    src: url(Font/KhmerUI.ttf);
+}*/
+
+
+.button-green-helvetica {    
+    background-color:#5DB295;
+    color:white;
+    font-family:Helvetica;
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:10px;
+    border:1px #047C66 solid;
+    text-align:center;
+    padding:8px 0px;
+}
+    .button-green-helvetica .icon {    
+        width:20px;
+        height:20px;
+    }
+.button-green-avard {    
+    background-color:#5DB295;
+    color:white;
+    font-family:'Avant GardeBook';
+    font-weight:bold;
+    cursor:pointer;
+    border-radius:10px;
+    border:1px #047C66 solid;
+    text-align:center;
+    padding:5px 0px;
+}
+
+    .button-green-avard .icon {    
+        width:20px;
+        height:20px;
+    }
+
+.popup {
+    position:absolute;
+    width:100%;
+    top:0;
+    z-index:10;
+}
+    .popup #bgblack {
+        position:fixed;
+        cursor:pointer;
+        top:0;
+        width:100%;
+        bottom:0;
+        background-color:rgba(150,150,150,0.4);
+    }
+.textbox {
+    border-radius:2px; 
+    border:1px rgba(76,76,75,0.3) solid;
+    font-family:Helvetica;
+    font-size:15px;
+    padding: 5px;
+    color:#737272;
+    transition: box-shadow 0.3s, border 0.3s;
+}
+    .textbox:focus {
+        border: solid 2px rgba(76,76,75,0.5);
+        /*box-shadow: 0 0 1px 1px rgba(0,0,0,0.5);*/
+    }
+
+.textarea {
+    border-radius:2px;
+    border:1px rgba(76,76,75,0.3) solid;    
+    font-family:Helvetica;
+    color:#737272;
+    font-size:15px;
+    resize:none;
+    padding:5px;
+}
+    .textarea:focus {
+        border: solid 2px rgba(76,76,75,0.5);
+        /*box-shadow: 0 0 1px 1px rgba(0,0,0,0.5);*/
+    }
