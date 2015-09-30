@@ -111,6 +111,7 @@
     <Compile Include="Controllers\accountController.cs" />
     <Compile Include="Controllers\homeController.cs" />
     <Compile Include="Controllers\productController.cs" />
+    <Compile Include="Controllers\transactionController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -139,7 +140,9 @@
     <Content Include="CSS\easydropdown.css" />
     <Content Include="CSS\easydropdown.flat.css" />
     <Content Include="CSS\easydropdown.metro.css" />
+    <Content Include="CSS\form.css" />
     <Content Include="CSS\home.css" />
+    <Content Include="CSS\order.css" />
     <Content Include="CSS\product.list.css" />
     <Content Include="CSS\Site.css" />
     <Content Include="Global.asax" />
@@ -171,6 +174,8 @@
     <Content Include="Images\icon\categories\valentine.png" />
     <Content Include="Images\icon\categories\wedding.png" />
     <Content Include="Images\icon\loc.png" />
+    <Content Include="Images\icon\new-posting.png" />
+    <Content Include="Images\icon\plus.png" />
     <Content Include="Images\logo-1.png" />
     <Content Include="Images\logo.png" />
     <Content Include="Images\icon\shop.png" />
@@ -193,6 +198,9 @@
     <Content Include="Images\tumbnail\p007.jpg" />
     <Content Include="Images\tumbnail\p008.jpg" />
     <Content Include="CSS\product.detail.css" />
+    <Content Include="Font\AvantGarde2BQRegular.otf" />
+    <Content Include="Font\AvantGardeBookRegular.otf" />
+    <Content Include="Font\Helvetica.ttf" />
     <None Include="Script\jquery-1.8.2.intellisense.js" />
     <Content Include="Script\jquery-1.8.2.js" />
     <Content Include="Script\jquery-1.8.2.min.js" />
@@ -226,6 +234,8 @@
     <Content Include="Views\product\index.aspx" />
     <Content Include="Views\product\order.ascx" />
     <Content Include="Views\product\productlist.ascx" />
+    <Content Include="Views\transaction\pembayaran.aspx" />
+    <Content Include="Views\transaction\pembelian.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -235,7 +245,6 @@
     </Content>
     <Content Include="Views\Web.config" />
     <Content Include="Views\Shared\Site.Master" />
-    <Content Include="Views\home\productlist2.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

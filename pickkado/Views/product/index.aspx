@@ -41,8 +41,9 @@
                             </div>
                         </td>
                         <td>
-                            
-                             <div class="button-order">Order</div>
+                             <div class="button-order button-green-avard">
+                                 <img src="../../Images/icon/cart.png" class="icon" />
+                                 Order</div>
                         </td>
                     </tr>
                 </table>
@@ -52,14 +53,13 @@
                 </div> 
                 <div class="field">
                     <span>
-
-                    <%:Model.DescriptionTambahan %>
+                        <%:Model.DescriptionTambahan %>
                     </span>
                 </div> 
             </div>
             <div class="panel_bawah"> 
                 <table>
-                    <tr>
+                    <tr style="vertical-align:top;">
                         <td>
                             <div class="review">
                                 <div style="margin-left:20px">
@@ -67,23 +67,29 @@
                                     <div class="field">
 
                                     </div> 
-                                    <div class="button-tulis-review">Tulis Review</div>
+                                    <div class="button-tulis-review button-green-helvetica">
+                                        <img src="../../Images/icon/new-posting.png" class="icon" />Tulis Review</div>
                                 </div>
                             </div>
                         </td>
                         <td>
-                             <div class="button-wishlist">Tambahkan ke Wishlist</div>
-                                <div class="profile_seller">
-                                    <div class="header">
-                                        Profile Penjual
-                                    </div>
-                                    <div >
-                                        <%:Model.PenjualName %>
-                                    </div>
+                             <div class="button-wishlist button-green-helvetica">Tambahkan ke Wishlist</div>
+                            <div  id="wishlist-box" class="profile_seller">
+                                <div class="header">
+                                    Wishlist
+                                </div>                                  
+                            </div>
+                            <div class="profile_seller">
+                                <div class="header">
+                                    Profile Penjual
+                                </div>
+                                <div >
+                                    <%:Model.PenjualName %>
+                                </div>                                    
                             </div>
                         </td>
                     </tr>
-                    <tr>
+                    <tr style="vertical-align:top;">
                         <td colspan="2" style="width:100%;">
                             <div id="other_product" >
                                 <div class="list">

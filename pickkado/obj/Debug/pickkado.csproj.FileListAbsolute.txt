@@ -58,6 +58,6 @@ C:\Users\Permadi\pickkado v0.4\pickkado\pickkado\bin\System.Web.Razor.xml
 C:\Users\Permadi\pickkado v0.4\pickkado\pickkado\bin\System.Web.WebPages.xml
 C:\Users\Permadi\pickkado v0.4\pickkado\pickkado\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Permadi\pickkado v0.4\pickkado\pickkado\bin\System.Web.WebPages.Razor.xml
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado\obj\Debug\pickkado.csprojResolveAssemblyReference.cache
 C:\Users\Permadi\pickkado v0.4\pickkado\pickkado\obj\Debug\pickkado.dll
 C:\Users\Permadi\pickkado v0.4\pickkado\pickkado\obj\Debug\pickkado.pdb
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado\obj\Debug\pickkado.csprojResolveAssemblyReference.cache

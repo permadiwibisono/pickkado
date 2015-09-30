@@ -103,7 +103,7 @@ namespace Pickkado.Models
 
     public class LoginModel
     {
-        [Required]
+        [Required(ErrorMessage="emailnya kosong gan")]
         [Display(Name = "Email")]
         public string Email { get; set; }
 

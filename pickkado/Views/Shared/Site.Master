@@ -11,25 +11,9 @@
     <script src="../Script/jquery.unobtrusive-ajax.min.js"></script>
     <script src="../Script/jquery.easydropdown.js"></script> 
      <link rel="stylesheet" type="text/css" href="../../CSS/easydropdown.css"/>
+     <link rel="stylesheet" type="text/css" href="../../CSS/form.css"/>
     <style>
-        @font-face {
-            font-family: Kartika;
-            src: url(Font/HelveticaNeue.ttf);
-        }
-        @font-face {
-            font-family: Moon;
-            src: url(Font/MoonLight.ttf);
-        }
         
-        @font-face {
-            font-family: Roboto;
-            src: url(Font/Roboto-Medium.ttf);
-        }
-        /*@font-face {
-            font-family:"Khmer UI";
-            src: url(Font/KhmerUI.ttf);
-        }*/
-
         body {
             margin:0;
             padding:0;
@@ -44,7 +28,7 @@
         }
         #header-up {
             /*background-color:#545047;*/
-            background-image:url('Images/header-bar-1.png');
+            background-image:url('../Images/header-bar-1.png');
             width:100%;
             height:37px;
 
@@ -72,7 +56,7 @@
         #header .bar {
             width:100%;
             /*background-color:#5F594D;*/
-            background-image:url('Images/header-bar-2.png');
+            background-image:url('../Images/header-bar-2.png');
             height:60px;
             
         }
@@ -144,7 +128,7 @@
             }
             #motto .motto-content {
                 /*background-color:#418C94;*/
-                background-image:url('Images/header-bar-3.jpg');
+                background-image:url('../Images/header-bar-3.jpg');
                 padding-top:20px;
                 padding-bottom:20px;
                 height:104px;
@@ -175,7 +159,7 @@
         #footer {
             width:100%;
             position:relative;
-            background-image:url('Images/footer-bar-1.png') ;
+            background-image:url('../Images/footer-bar-1.png') ;
             bottom:0;
             height:237px;
         }
@@ -186,7 +170,7 @@
     <form id="form1" runat="server">
     <div>
         <div id="wrapper">
-        <div id="popup-order" style="position:absolute; width:100%; top:0;z-index:10">
+        <div id="popup-order" class="popup">
         </div>
             <div id="header">
                 <div id="header-up">
