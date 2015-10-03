@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pickkado", "pickkado\pickka
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pickkado.Tests", "pickkado.Tests\pickkado.Tests.csproj", "{967D2A75-25ED-4A9C-8FC1-61ACCAA58751}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pickkado.console", "pickkado.console\pickkado.console.csproj", "{62E79EF0-18F5-48B1-BC22-7C5D26B5A425}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{967D2A75-25ED-4A9C-8FC1-61ACCAA58751}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{967D2A75-25ED-4A9C-8FC1-61ACCAA58751}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{967D2A75-25ED-4A9C-8FC1-61ACCAA58751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62E79EF0-18F5-48B1-BC22-7C5D26B5A425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62E79EF0-18F5-48B1-BC22-7C5D26B5A425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62E79EF0-18F5-48B1-BC22-7C5D26B5A425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62E79EF0-18F5-48B1-BC22-7C5D26B5A425}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

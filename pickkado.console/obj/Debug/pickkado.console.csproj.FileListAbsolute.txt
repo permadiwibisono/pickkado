@@ -1,0 +1,16 @@
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\bin\Debug\pickkado.console.exe
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\bin\Debug\EntityFramework.dll
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\bin\Debug\pickkado.dll
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\bin\Debug\System.Web.Mvc.dll
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\bin\Debug\pickkado.pdb
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\bin\Debug\EntityFramework.xml
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\bin\Debug\System.Web.Mvc.xml
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\obj\Debug\pickkado.console.csprojResolveAssemblyReference.cache
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\obj\Debug\pickkado.console.exe
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\obj\Debug\pickkado.console.pdb
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\bin\Debug\pickkado.console.exe.config
+C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.console\bin\Debug\pickkado.console.pdb

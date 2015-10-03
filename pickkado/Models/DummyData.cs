@@ -27,18 +27,18 @@ namespace pickkado.Models
         {
             CategoriesList = new List<Categories>
             {
-                new Categories{Id="C001",CategoryName="Coorperate",Icon="/icon/categories/Icon-1.png"},
-                new Categories{Id="C002",CategoryName="Idul fitri",Icon="/icon/categories/Icon-4.png"},
-                new Categories{Id="C003",CategoryName="Anniversary",Icon="/icon/categories/Icon-9.png"},
-                new Categories{Id="C004",CategoryName="Coorperate",Icon="/icon/categories/Icon-1.png"},
-                new Categories{Id="C005",CategoryName="Valentine",Icon="/icon/categories/Icon-2.png"},
-                new Categories{Id="C006",CategoryName="Ulang tahun",Icon="/icon/categories/Icon-5.png"},
-                new Categories{Id="C007",CategoryName="Wedding",Icon="/icon/categories/Icon-6.png"},
-                new Categories{Id="C008",CategoryName="Valentine",Icon="/icon/categories/Icon-2.png"},
-                new Categories{Id="C009",CategoryName="Father & Mother Day",Icon="/icon/categories/Icon-3.png"},
-                new Categories{Id="C0010",CategoryName="Natal",Icon="/icon/categories/Icon-7.png"},
-                new Categories{Id="C0011",CategoryName="Baby Birth",Icon="/icon/categories/Icon-8.png"},
-                new Categories{Id="C0012",CategoryName="Father & Mother Day",Icon="/icon/categories/Icon-3.png"},
+                new Categories{Id=Guid.NewGuid(),CategoryName="Coorperate",Icon="/icon/categories/Icon-1.png"},
+                new Categories{Id=Guid.NewGuid(),CategoryName="Idul fitri",Icon="/icon/categories/Icon-4.png"},
+                new Categories{Id=Guid.NewGuid(),CategoryName="Anniversary",Icon="/icon/categories/Icon-9.png"},
+                new Categories{Id=Guid.NewGuid(),CategoryName="Coorperate",Icon="/icon/categories/Icon-1.png"},
+                new Categories{Id=Guid.NewGuid(),CategoryName="Valentine",Icon="/icon/categories/Icon-2.png"},
+                new Categories{Id=Guid.NewGuid(),CategoryName="Ulang tahun",Icon="/icon/categories/Icon-5.png"},
+                new Categories{Id=Guid.NewGuid(),CategoryName="Wedding",Icon="/icon/categories/Icon-6.png"},
+                new Categories{Id=Guid.NewGuid(),CategoryName="Valentine",Icon="/icon/categories/Icon-2.png"},
+                new Categories{Id=Guid.NewGuid(),CategoryName="Father & Mother Day",Icon="/icon/categories/Icon-3.png"},
+                new Categories{Id=Guid.NewGuid(),CategoryName="Natal",Icon="/icon/categories/Icon-7.png"},
+                new Categories{Id=Guid.NewGuid(),CategoryName="Baby Birth",Icon="/icon/categories/Icon-8.png"},
+                new Categories{Id=Guid.NewGuid(),CategoryName="Father & Mother Day",Icon="/icon/categories/Icon-3.png"},
             };
             ProductList = new List<GiftDummy>
             {

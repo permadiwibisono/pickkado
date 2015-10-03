@@ -56,6 +56,42 @@
                             <td> <%: Html.RadioButton("IsCorporate", "Yes", true) %> Ya
                                 <%: Html.RadioButton("IsCorporate", "No", false) %> Tidak </td>
                         </tr>
+                        <tr>
+                            <td> </td>
+                            <%
+               var tanggalList = new List<SelectListItem>();
+               for (int i = 1; i <= 31; i++)
+               {
+                   tanggalList.Add(new SelectListItem
+                   {
+                       Text = i.ToString(),
+                       Value = i.ToString()
+                   });
+               }
+               var bulanList = new List<SelectListItem>();
+               for (int i = 1; i <= 12; i++)
+               {
+                   bulanList.Add(new SelectListItem
+                   {
+                       Text = i.ToString(),
+                       Value = i.ToString()
+                   });
+               }
+               var tahunList = new List<SelectListItem>();
+               for (int i = 1994; i <= DateTime.Now.Year; i++)
+               {
+                   tahunList.Add(new SelectListItem
+                   {
+                       Text = i.ToString(),
+                       Value = i.ToString()
+                   });
+               }
+                            %>
+                            <td> <%: Html.DropDownListFor(m => m.Tanggal,tanggalList,new { @class = "dropdown" })%> 
+                                <%: Html.DropDownListFor(m => m.Bulan,bulanList,new { @class = "dropdown" })%> 
+                                <%: Html.DropDownListFor(m => m.Tahun,tahunList,new { @class = "dropdown" })%> 
+                                </td>
+                        </tr>
                     </table>
                     <div class="separatorBorderHor"></div>
                     <div class="divBlue" style="width:100%; height:200px;">
@@ -86,8 +122,8 @@
                     <table class="titleCenter">
                         <tr>
                             <td>
-                                <div onclick="location.href = '/';">
-                                    <input type="button" style="width:200px; height:30px; background-color:#5BB395; color:#FFFFFF; padding:5px; border-radius:6px" value="Register"/>
+                                <div ">
+                                    <input type="submit" style="width:200px; height:30px; background-color:#5BB395; color:#FFFFFF; padding:5px; border-radius:6px" value="Register"/>
                                 </div>
                             </td>
                         </tr>

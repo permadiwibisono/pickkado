@@ -1,7 +1,9 @@
-﻿using System;
+﻿using pickkado.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Data.Entity;
 using System.Globalization;
 using System.Web.Security;
 
@@ -117,5 +119,19 @@ namespace Pickkado.Models
     public class ProfileModel
     {
         public string Menu { get; set; }
+    }
+
+    public class PickkadoDBContext : DbContext
+    {
+        public PickkadoDBContext():base("pickkadoDB")
+        {
+            Database.CreateIfNotExists();
+        }
+        public DbSet<User> User { get; set; }
+        public DbSet<Gift> Gift { get; set; }
+        public DbSet<AlamatPenerima> AlamatPenerima { get; set; }
+        public DbSet<Categories> Categories { get; set; }
+        //public DbSet<MasterCustom> MasterCostum { get; set; }
+        public DbSet<NoRekening> NoRekening { get; set; }
     }
 }

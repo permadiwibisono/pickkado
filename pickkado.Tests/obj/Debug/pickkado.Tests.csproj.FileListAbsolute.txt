@@ -22,27 +22,3 @@ E:\My Document\Software engineer\Tranquility\PICKKADO\pickkado v0.3\pickkado\pic
 E:\My Document\Software engineer\Tranquility\PICKKADO\pickkado v0.3\pickkado\pickkado.Tests\obj\Debug\pickkado.Tests.csprojResolveAssemblyReference.cache
 E:\My Document\Software engineer\Tranquility\PICKKADO\pickkado v0.3\pickkado\pickkado.Tests\obj\Debug\pickkado.Tests.dll
 E:\My Document\Software engineer\Tranquility\PICKKADO\pickkado v0.3\pickkado\pickkado.Tests\obj\Debug\pickkado.Tests.pdb
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\pickkado.Tests.dll.config
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\pickkado.Tests.dll
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\pickkado.Tests.pdb
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\Microsoft.Web.Mvc.FixedDisplayModes.dll
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\pickkado.dll
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\System.Web.Helpers.dll
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\System.Web.Mvc.dll
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\System.Web.Razor.dll
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\System.Web.WebPages.dll
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\System.Web.WebPages.Razor.dll
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\pickkado.pdb
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\System.Web.Helpers.xml
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\System.Web.Mvc.xml
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\System.Web.Razor.xml
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\System.Web.WebPages.xml
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\System.Web.WebPages.Deployment.xml
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\bin\Debug\System.Web.WebPages.Razor.xml
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\obj\Debug\pickkado.Tests.csprojResolveAssemblyReference.cache
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\obj\Debug\pickkado.Tests.dll
-C:\Users\Permadi\pickkado v0.4\pickkado\pickkado.Tests\obj\Debug\pickkado.Tests.pdb

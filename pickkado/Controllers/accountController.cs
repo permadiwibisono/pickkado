@@ -20,10 +20,18 @@ namespace pickkado.Controllers
 
         //
         // GET: /account/register
-
+        [HttpGet]
         public ActionResult Register()
         {
             return View();
+        }
+        [HttpPost]
+        public ActionResult Register(RegisterModel model)
+        {
+            if (model == null)
+                return View();
+            else
+                return RedirectToAction("../home/index");
         }
 
         //

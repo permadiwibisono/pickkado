@@ -1,0 +1,308 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="pickkado.Views.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>    
+    <script src="../Script/jquery-1.8.2.min.js"></script>
+    <script src="../Script/jquery.unobtrusive-ajax.min.js"></script>
+    <script src="../Script/jquery.easydropdown.js"></script> 
+     <link rel="stylesheet" type="text/css" href="../../CSS/easydropdown.css"/>
+     <link rel="stylesheet" type="text/css" href="../../CSS/form.css"/>
+    <style>
+        
+        body {
+            margin:0;
+            padding:0;
+            border:0;
+            border-spacing:0px;
+        }
+        #wrapper {
+            background-color:white;
+            /*margin:0 auto;*/
+            width:100%;
+            min-width:1110px;
+        }
+        #header-up {
+            /*background-color:#545047;*/
+            background-image:url('../Images/header-bar-1.png');
+            width:100%;
+            height:37px;
+
+        }
+        #header {
+            min-width:1110px;
+            padding-bottom:0px;
+        }
+        .button {
+            margin:15px 0px;
+            padding:0px 40px;
+            float:right;
+            font-family:'Avant GardeBook';
+            color:#B4B4B4;
+            font-size:13px;
+            text-decoration:none;
+            
+        }
+        #header-down {
+            /*background-color:#5F594D;*/
+
+            width:100%;
+            height:70px;
+        }
+        #header .bar {
+            width:100%;
+            /*background-color:#5F594D;*/
+            background-image:url('../Images/header-bar-2.png');
+            height:60px;
+            
+        }
+        #about {
+            width:1020px;
+            margin:0 auto;
+            border-bottom:1px  solid rgba(255,255,255,0.2);
+            /*margin-top:50px;*/
+        }
+        #about .title {
+            font-family:Helvetica;
+            font-size:17px;
+            font-weight:bold;
+            color:white;
+        }
+        #about .title2 {
+            font-family:Helvetica;
+            font-weight:bold;
+            font-size:12px;
+            color:#5DB295;
+        }
+            #about .detail {
+            font-family:Helvetica;
+            font-size:11px;
+            color:#FFFFFF;
+            }
+        #nav{
+				list-style: none;
+				margin: 0;
+				padding: 0;
+				text-align: left;
+
+			}
+			#nav li {
+				display: inline-block;
+				vertical-align: middle;
+			}
+			#nav .nav-button{
+				padding: 15px 25px;
+				/*font-weight: bold;*/
+                font-size:18px;
+				cursor: pointer;
+				color:#B4B4B4;
+                font-family:'Avant GardeBook';
+
+			}
+			#nav li a{
+				text-decoration: none;
+				color:rgba(255,255,255,1);
+			}
+        #content {
+            /*width:1020px;
+            margin:0 auto;*/
+            
+            min-height:300px;
+            overflow:hidden;
+        }
+        #motto {
+            width:100%;
+            background-color:#F4F4F1;
+            position:relative;
+            z-index:3;
+                
+        }
+            #motto .title-motto {
+                font-size:48px;
+                color:white;
+                font-family:Moon;
+            }
+            #motto .motto-content {
+                /*background-color:#418C94;*/
+                background-image:url('../Images/header-bar-3.jpg');
+                padding-top:20px;
+                padding-bottom:20px;
+                height:104px;
+                width:100%;
+                -webkit-box-shadow: -0.5px 4px 5px 0px rgba(0,0,0,0.5);
+                -moz-box-shadow: -0.5px 4px 5px 0px rgba(0,0,0,0.5);
+                box-shadow: -0.5px 4px 5px 0px rgba(0,0,0,0.5);
+                z-index:10;
+            }
+                .motto-content .table {
+                    width:1000px;
+                    margin:0 auto;
+                }
+            .table .td {
+                /*width:33.33%;*/
+                text-align:center;
+                vertical-align:top;
+            }
+            .table p{
+                width:210px;
+                text-align:center;
+                margin:0 auto;
+                font-family:Helvetica;
+                font-size:12px;
+                color:white;
+                font-style:oblique;
+            }
+        #footer {
+            width:100%;
+            position:relative;
+            background-image:url('../Images/footer-bar-1.png') ;
+            bottom:0;
+            height:237px;
+        }
+    </style>
+    <link href="../../CSS/Site.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="wrapper">
+        <div id="popup-order" class="popup">
+        </div>
+            <div id="header">
+                <div id="header-up">
+                    <table style="position:relative;  top:-15px; width:100%">
+                        <tr>
+                            <td style="width:50%">
+                            </td>
+                            <td style="text-align:right; vertical-align:top;">                                
+                                <a href="../account/login" class="button" >Login</a>
+                                <a href="../account/register" class="button" style="border-right:1px #B5B4B4 solid">Register</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="bar" >
+                    <ul id="nav" style="position:absolute; min-width:1020px; z-index:5; top:5px; left:50px; ">
+                        <li> 
+                            <img src="../../Images/logo.png" style="  cursor:pointer;" onclick="location.href='/';" /></li>
+                        <li class="nav-button">home</li>
+                        <li class="nav-button">event</li>
+                        <li class="nav-button">help</li>
+                        <li>
+                            <table style="border-collapse:collapse;">
+                                <tr >
+                                    <td style=" background-color:#EFEFEB" >
+                                        <select class="dropdown" >
+                                            <option value="" class="label">All Momment</option>
+                                            <option value="1" >Corporate</option>
+                                            <option value="2" >Idul Fitri</option>
+                                        </select>
+                                        
+                                    </td>
+                                    <td>
+                                        <input type="text" placeholder="Cari product/creator" style="margin:0px; color:#8B8A8A; width:300px; padding-left:15px; font-size:12px; font-family:Helvetica; border:none; padding:5px;  background-color:#EFEFEB"/>
+
+                                    </td>
+                                </tr>
+                            </table>
+                            
+
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+            <div id="motto">
+                <div class="motto-content">
+                    <table class="table">
+                        <tr>
+                            <td class="td">
+                                <span class="title-motto">UNIQUE
+                                </span>
+                                <p >
+                                    ada standard keunikan dari produk yang boleh dijual di <strong>PICKKADO</strong>.
+                                </p>
+                            </td>
+                            <td class="td">
+                                <span class="title-motto">CUSTOMIZE</span>
+                                <p>
+                                    selain produk jadi yang unik, produk yang dijual di <strong>PICKKADO</strong> merupakan produk yang bisa dicustomize.
+                                </p>
+                            </td>
+                            <td class="td">
+                                <span class="title-motto">SECURE</span>
+                                <p>
+                                    <strong>PICKKADO</strong> juga mengutamakan 
+                                    kemanan anda dalam membeli 
+                                    product.
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div style="background-color:#F4F4F2; width:100%; overflow:auto">
+                <div id="content">
+                    <asp:ContentPlaceHolder ID="BodyContent" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </div>
+
+            </div>
+            <div id="footer">
+                <br />
+                <br />
+                <div id="about">
+                    <table >
+                        <tr>
+                        
+                            <td style="width:30px; ">
+                                <img src="../../Images/logo-1.png" />
+                            </td>
+                            <td style="width:120px; padding-left:25px; ">
+                                <span class="title2">Jual</span>
+                            </td>
+                            <td style="width:120px; padding-left:25px; ">
+                                <span class="title2">Beli</span> 
+                            </td>
+                            <td style="width:120px; padding-left:25px; ">
+                                <span class="title2">Bantuan</span>
+                            </td>
+                        </tr>
+                        <tr>
+                        
+                            <td style="width:30px; vertical-align:top; ">
+                                    <span class="title">PICKKADO</span> <span class="detail">adalah web apps dimana
+                                    dimana kamu dapat membeli atau menjual product 
+                                    yang ditujukan sebagai hadiah.</span> 
+                                <p>
+                                </p>
+                            </td>
+                            <td style="width:120px; padding-left:25px;vertical-align:top; ">
+                                    <span class="detail">Cara berjualan.</span><br />
+                                    <span class="detail">Pasang iklan.</span><br />
+                                    <span class="detail">Verified account.</span>
+                            </td>
+                            <td style="width:120px; padding-left:25px; vertical-align:top;">
+                                    <span class="detail">Cara pembelian.</span><br />
+                                    <span class="detail">Pembayaran.</span><br />
+                                    <span class="detail">Pengembalian dana.</span>
+                            </td>
+                            <td style="width:120px; padding-left:25px; vertical-align:top; ">
+                                    <span class="detail">Syarat & ketentuan.</span><br />
+                                    <span class="detail">Kebijakan privasi.</span><br />
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

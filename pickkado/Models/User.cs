@@ -22,6 +22,7 @@ namespace pickkado.Models
         public string RegisterBy { get; set; }
         
         public bool IsCorporate { get; set; }
+        public string ShopName { get; set; }
         public string Alamat { get; set; }
         public string Kelurahan { get; set; }
         public string Kecamatan { get; set; }
@@ -34,5 +35,8 @@ namespace pickkado.Models
         public DateTime LastOnline { get; set; }
         public string MerchantStatus { get; set; }
 
+        public virtual ICollection<Gift> Gifts { get; set; }
+        public virtual ICollection<NoRekening> NoRekenings { get; set; }
+        public virtual ICollection<AlamatPenerima> AlamatPenerimas { get; set; }
     }
 }
